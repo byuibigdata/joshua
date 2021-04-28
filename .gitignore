@@ -137,3 +137,4 @@ dmypy.json
 
 # ignore draft folder in scripts
 /scripts/draft
+/data/big
