@@ -64,10 +64,10 @@ __Command Line: Windows__
 ```bash
 docker run --name spark -it ^
   -p 8888:8888 -p 4040:4040 -p 4041:4041 ^
-  -v C:/git/BYUI451/docker_guide/data:/home/jovyan/data ^
-  -v C:/git/BYUI451/docker_guide/scripts:/home/jovyan/scripts ^
-  -v C:/git/BYUI451/docker_guide/scratch:/home/jovyan/scratch ^
-  -v C:/git/BYUI451/docker_guide/work:/home/jovyan/work ^
+  -v C:/Users/Rebekah/Documents/big_data_prog/joshua/data:/home/jovyan/data ^
+  -v C:/Users/Rebekah/Documents/big_data_prog/joshua/scripts:/home/jovyan/scripts ^
+  -v C:/Users/Rebekah/Documents/big_data_prog/joshua/scratch:/home/jovyan/scratch ^
+  -v C:/Users/Rebekah/Documents/big_data_prog/joshua/work:/home/jovyan/work ^
   --network n451 ^
   jupyter/all-spark-notebook
 ```
